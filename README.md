@@ -91,6 +91,7 @@ Clean Code Practices: Component-based, modular architecture
 
 Visit the live portfolio site
 
+
 🛠 Tech Stack
 
 Frontend: Next.js, React, TypeScript, Tailwind CSS
@@ -101,11 +102,13 @@ Deployment: Vercel
 
 Version Control: Git + GitHub
 
+
 📬 Contact
 
 GitHub: FelixFrimpong
 
 LinkedIn: Felix Frimpong
+
 
 ⚡ Notes
 
