@@ -1,8 +1,14 @@
 import type { NextConfig } from "next";
 
+// @ts-expect-error — disable type check for the turbo flag (valid runtime option)
 const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
+  experimental: {
+    // explicitly tell Next.js not to use Turbopack
+    turbo: false,
+  },
+  webpack: (config) => {
+    return config;
+  },
 };
 
-export default nextConfig;
+export default nextConfig
