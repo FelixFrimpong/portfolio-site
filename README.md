@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Felix Frimpong – Portfolio Site
 
-## Getting Started
+Welcome to my **portfolio site**, showcasing my work as a **Fullstack Software Engineer** with a focus on **TypeScript, Next.js, and AI integration**.
 
-First, run the development server:
+This project demonstrates modern web development practices, scalable architecture, and integration of intelligent features using AI/ML models.
 
+---
+
+## 🚀 Project Overview
+
+This is a **Next.js 16 + TypeScript** portfolio application built with:
+
+- **Next.js (App Router, TypeScript)** – Scalable frontend & backend routing  
+- **Tailwind CSS / CSS Modules** – Modern, responsive styling  
+- **AI/ML integration** – Showcasing AI-powered components and projects  
+- **Vercel deployment** – Fully hosted, optimized, and production-ready  
+
+---
+
+## 📂 Folder Structure
+portfolio-site/
+├─ public/ # Static assets (images, icons, fonts)
+├─ src/
+│ ├─ app/ # App router pages & layouts
+│ │ ├─ page.tsx # Homepage
+│ │ ├─ layout.tsx # Site layout
+│ │ └─ globals.css # Global styles
+├─ package.json # Project dependencies
+├─ tsconfig.json # TypeScript configuration
+├─ next.config.ts # Next.js configuration
+└─ README.md # This file
+
+
+---
+
+## 💻 Getting Started
+
+### Run Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/FelixFrimpong/portfolio-site.git
+cd portfolio-site
+```
+
+2. **Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. **Start development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open http://localhost:3000 in your browser to see the live site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Start development server
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. **Build for Production
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+🌟 Features
 
-To learn more about Next.js, take a look at the following resources:
+Modern UI/UX: Fully responsive layout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Fast Performance: Optimized with Next.js & Turbopack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+AI/ML Components: Future-ready integration for AI-powered applications
 
-## Deploy on Vercel
+TypeScript: Type-safe codebase for maintainability
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Clean Code Practices: Component-based, modular architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+🔗 Live Deployment
+
+Visit the live portfolio site
+
+🛠 Tech Stack
+
+Frontend: Next.js, React, TypeScript, Tailwind CSS
+
+Backend: Node.js (API routes), Next.js App Router
+
+Deployment: Vercel
+
+Version Control: Git + GitHub
+
+📬 Contact
+
+GitHub: FelixFrimpong
+
+LinkedIn: Felix Frimpong
+
+⚡ Notes
+
+This portfolio is continuously updated with new projects, improvements, and AI experiments. Stay tuned for AI-powered features in future updates.
+```bash
+
+---
+
+This README is:
+
+- **Clean and professional** (suitable for senior SWE recruiters)  
+- **Shows technical depth** (Next.js, TypeScript, AI focus)  
+- **Includes links to live site + GitHub/LinkedIn**  
+- **Explains project structure** for someone evaluating your code  
+
+---
+
+If you want, I can also **draft a “live projects showcase section”** you can add under Features with **screenshots and AI demos**, which makes your portfolio **very compelling for recruiters**.  
+
+Do you want me to do that next?
+
+```
