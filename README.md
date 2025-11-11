@@ -18,6 +18,7 @@ This is a **Next.js 16 + TypeScript** portfolio application built with:
 ---
 
 ## 📂 Folder Structure
+```bash
 portfolio-site/
 ├─ public/ # Static assets (images, icons, fonts)
 ├─ src/
@@ -30,7 +31,7 @@ portfolio-site/
 ├─ next.config.ts # Next.js configuration
 └─ README.md # This file
 
-
+```
 ---
 
 ## 💻 Getting Started
