@@ -60,13 +60,7 @@ yarn dev
 ```
 
 4. Open http://localhost:3000 in your browser to see the live site.
-
-3. **Start development server
-```bash
-npm run dev
-# or
-yarn dev
-```
+   
 
 5. **Build for Production
 ```bash
@@ -89,7 +83,7 @@ Clean Code Practices: Component-based, modular architecture
 
 🔗 Live Deployment
 
-Visit the live portfolio site
+👉 [Visit the live portfolio site](https://portfolio-site-kpssvty2a-felix-frimpongs-projects.vercel.app)
 
 
 🛠 Tech Stack
@@ -105,9 +99,8 @@ Version Control: Git + GitHub
 
 📬 Contact
 
-GitHub: FelixFrimpong
-
-LinkedIn: Felix Frimpong
+- [GitHub: FelixFrimpong](https://github.com/FelixFrimpong)  
+- [LinkedIn: Felix Frimpong](https://www.linkedin.com/in/felix-frimpong-266307141/)
 
 
 ⚡ Notes
