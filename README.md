@@ -83,7 +83,7 @@ Clean Code Practices: Component-based, modular architecture
 
 🔗 Live Deployment
 
-👉 [Visit the live portfolio site](https://https://portfolio-site-9qdqhkio5-felix-frimpongs-projects.vercel.app/)
+👉 [Visit the live portfolio site](https://https://portfolio-site-9qdqhkio5-felix-frimpongs-projects.vercel.app)
 
 
 🛠 Tech Stack
