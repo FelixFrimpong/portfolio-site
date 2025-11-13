@@ -85,7 +85,7 @@ export default function RootLayout({
         <meta
           name="author"
           property="article:author"
-          content="https://www.linkedin.com/in/felix-frimpong"
+          content="Felix Frimpong"
         />
         <meta property="article:published_time" content="2025-11-12T00:00:00Z" />
 
