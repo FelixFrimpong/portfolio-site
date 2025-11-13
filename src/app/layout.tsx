@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   other: {
     "og:image": "https://felixfrimpong.vercel.app/og-image.png",
-    "article:author": "https://www.linkedin.com/in/felix-frimpong",
+    "article:author": "Felix Frimpong",
   },
 };
 
