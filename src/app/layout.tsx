@@ -70,6 +70,7 @@ export default function RootLayout({
 
         {/* OG Image */}
         <meta
+          name="image" 
           property="og:image"
           content="https://felixfrimpong.vercel.app/og-image.png"
         />
@@ -82,6 +83,7 @@ export default function RootLayout({
 
         {/* Article Author */}
         <meta
+          name="author"
           property="article:author"
           content="https://www.linkedin.com/in/felix-frimpong"
         />
