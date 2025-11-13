@@ -14,26 +14,29 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Felix Frimpong — Full-Stack Engineer",
-  description: "Portfolio built with Next.js, TypeScript, and Tailwind CSS.",
-  openGraph: {
-  title: "Felix Frimpong — Full-Stack Engineer",
   description:
     "I'm Felix Frimpong, a Full-Stack Engineer passionate about building scalable web applications with Next.js, TypeScript, and Node.js. Explore my portfolio to see my latest projects and technical work.",
-  url: "https://felixfrimpong.vercel.app",
-  siteName: "Felix Frimpong Portfolio",
-  images: [
-    {
-      url: "/og-image.png",
-      width: 1200,
-      height: 630,
-      alt: "Felix Frimpong Portfolio Preview",
-    },
-  ],
-  locale: "en_US",
-  type: "website",
-},
-
+  openGraph: {
+    title: "Felix Frimpong — Full-Stack Engineer",
+    description:
+      "I'm Felix Frimpong, a Full-Stack Engineer passionate about building scalable web applications with Next.js, TypeScript, and Node.js. Explore my portfolio to see my latest projects and technical work.",
+    url: "https://felixfrimpong.vercel.app",
+    siteName: "Felix Frimpong Portfolio",
+    images: [
+      {
+        url: "https://felixfrimpong.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Felix Frimpong — Full-Stack Engineer Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "article", // 👈 tells LinkedIn it's an article-like page
+    authors: ["https://www.linkedin.com/in/felix-frimpong"], // 👈 your LinkedIn link here
+    publishedTime: "2025-11-12T00:00:00Z", // 👈 ISO date format
+  },
 };
+
 
 export default function RootLayout({
   children,
