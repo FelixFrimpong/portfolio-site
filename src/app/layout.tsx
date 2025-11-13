@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Felix Frimpong — Full-Stack Engineer",
     description: "Portfolio built with Next.js, TypeScript, and Tailwind CSS.",
-    url: "https://portfolio-site-hxaori24g-felix-frimpongs-projects.vercel.app",
+    url: "felixfrimpong.vercel.app",
     siteName: "Felix Frimpong Portfolio",
     locale: "en_US",
     type: "website",
