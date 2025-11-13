@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   other: {
     "og:image": "https://felixfrimpong.vercel.app/og-image.png",
-    "article:author": "Felix Frimpong",
+    "article:author": "https://www.linkedin.com/in/felix-frimpong",
   },
 };
 
@@ -72,7 +72,7 @@ export default function RootLayout({
         <meta
           name="image" 
           property="og:image"
-          content="https://felixfrimpong.vercel.app/og-image.png"
+          content="https://felixfrimpong.vercel.app/og-image.png?v=2"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -85,7 +85,7 @@ export default function RootLayout({
         <meta
           name="author"
           property="article:author"
-          content="Felix Frimpong"
+          content="https://www.linkedin.com/in/felix-frimpong"
         />
         <meta property="article:published_time" content="2025-11-12T00:00:00Z" />
 
