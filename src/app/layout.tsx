@@ -31,11 +31,16 @@ export const metadata: Metadata = {
       },
     ],
     locale: "en_US",
-    type: "article", // 👈 tells LinkedIn it's an article-like page
-    authors: ["https://www.linkedin.com/in/felix-frimpong"], // 👈 your LinkedIn link here
-    publishedTime: "2025-11-12T00:00:00Z", // 👈 ISO date format
+    type: "article",
+    authors: ["https://www.linkedin.com/in/felix-frimpong"],
+    publishedTime: "2025-11-12T00:00:00Z",
+  },
+  other: {
+    "og:image": "https://felixfrimpong.vercel.app/og-image.png",
+    "article:author": "https://www.linkedin.com/in/felix-frimpong",
   },
 };
+
 
 
 export default function RootLayout({
