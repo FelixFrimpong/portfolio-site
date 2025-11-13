@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,18 +42,64 @@ export const metadata: Metadata = {
   },
 };
 
-
-
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <Head>
+        {/* Primary Meta Tags */}
+        <title>Felix Frimpong — Full-Stack Engineer</title>
+        <meta
+          name="description"
+          content="I'm Felix Frimpong, a Full-Stack Engineer passionate about building scalable web applications with Next.js, TypeScript, and Node.js. Explore my portfolio to see my latest projects and technical work."
+        />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Felix Frimpong — Full-Stack Engineer" />
+        <meta
+          property="og:description"
+          content="I'm Felix Frimpong, a Full-Stack Engineer passionate about building scalable web applications with Next.js, TypeScript, and Node.js. Explore my portfolio to see my latest projects and technical work."
+        />
+        <meta property="og:url" content="https://felixfrimpong.vercel.app" />
+        <meta property="og:site_name" content="Felix Frimpong Portfolio" />
+        <meta property="og:locale" content="en_US" />
+
+        {/* OG Image */}
+        <meta
+          property="og:image"
+          content="https://felixfrimpong.vercel.app/og-image.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Felix Frimpong — Full-Stack Engineer Portfolio"
+        />
+
+        {/* Article Author */}
+        <meta
+          property="article:author"
+          content="https://www.linkedin.com/in/felix-frimpong"
+        />
+        <meta property="article:published_time" content="2025-11-12T00:00:00Z" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Felix Frimpong — Full-Stack Engineer" />
+        <meta
+          name="twitter:description"
+          content="I'm Felix Frimpong, a Full-Stack Engineer passionate about building scalable web applications with Next.js, TypeScript, and Node.js. Explore my portfolio to see my latest projects and technical work."
+        />
+        <meta
+          name="twitter:image"
+          content="https://felixfrimpong.vercel.app/og-image.png"
+        />
+      </Head>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
