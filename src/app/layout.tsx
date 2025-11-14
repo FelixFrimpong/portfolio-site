@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -101,9 +102,17 @@ export default function RootLayout({
           content="https://felixfrimpong.vercel.app/og-image.png"
         />
       </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
-      </body>
+     <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+  <nav style={{ padding: "1rem", borderBottom: "1px solid #ddd" }}>
+    <Link href="/" style={{ marginRight: "1rem" }}>Home</Link>
+    <Link href="/projects" style={{ marginRight: "1rem" }}>Projects</Link>
+    <Link href="/about" style={{ marginRight: "1rem" }}>About</Link>
+    <Link href="/contact">Contact</Link>
+  </nav>
+  {children}
+</body>
+
+
     </html>
   );
 }
